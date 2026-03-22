@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: theinsanelysimplestuff/theinsanelysimplestuff
-  branch: main
+  branch: test
   base_url: https://damp-thunder-e0a7.malaikanoor7864.workers.dev
   auth_endpoint: auth
 
