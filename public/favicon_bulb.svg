@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bulb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE033"/>
+      <stop offset="100%" style="stop-color:#FFAA00"/>
+    </linearGradient>
+  </defs>
+  <!-- Lightbulb body -->
+  <path d="M90 28 C63 28, 44 48, 44 72 C44 92, 55 107, 70 116 L70 128 C70 131, 72 133, 75 133 L105 133 C108 133, 110 131, 110 128 L110 116 C125 107, 136 92, 136 72 C136 48, 117 28, 90 28 Z"
+        fill="url(#bulb)"/>
+  <!-- Base bands -->
+  <rect x="73" y="133" width="34" height="7" rx="3.5" fill="#FFAA00"/>
+  <rect x="77" y="143" width="26" height="7" rx="3.5" fill="#FF8C00"/>
+  <rect x="81" y="153" width="18" height="6" rx="3" fill="#FF7200"/>
+  <!-- Checkmark -->
+  <path d="M70 72 L83 87 L112 56"
+        fill="none" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
