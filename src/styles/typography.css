@@ -5,6 +5,14 @@
   .app-prose {
     @apply prose;
 
+    .katex-display {
+      @apply overflow-x-auto py-2 text-foreground;
+    }
+
+    .katex {
+      @apply text-foreground;
+    }
+
     h1,
     h2,
     h3,
